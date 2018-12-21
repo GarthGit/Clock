@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD16C6B59D8197C6CAFAC618 /* libPods-AddClockViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D8C337FB8A01F2D2A74326 /* libPods-AddClockViewDemo.a */; };
 		EE96D4B121CCB845005197BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D4B021CCB845005197BA /* AppDelegate.m */; };
 		EE96D4B421CCB845005197BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D4B321CCB845005197BA /* ViewController.m */; };
 		EE96D4B721CCB845005197BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE96D4B521CCB845005197BA /* Main.storyboard */; };
@@ -15,6 +16,24 @@
 		EE96D4BF21CCB846005197BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D4BE21CCB846005197BA /* main.m */; };
 		EE96D4C921CCB84F005197BA /* AddClockViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D4C821CCB84F005197BA /* AddClockViewDemoTests.m */; };
 		EE96D4D421CCB84F005197BA /* AddClockViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D4D321CCB84F005197BA /* AddClockViewDemoUITests.m */; };
+		EE96D4E321CCBE03005197BA /* AddClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D4E221CCBE03005197BA /* AddClockViewController.m */; };
+		EE96D4E821CCC889005197BA /* UNNotificationsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D4E721CCC889005197BA /* UNNotificationsManager.m */; };
+		EE96D50221CCC8B5005197BA /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D4EB21CCC8B5005197BA /* Aspects.m */; };
+		EE96D50321CCC8B5005197BA /* UIControl+ORIBProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D4ED21CCC8B5005197BA /* UIControl+ORIBProperty.m */; };
+		EE96D50421CCC8B5005197BA /* UICollectionViewFlowLayout+ORIBProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D4EF21CCC8B5005197BA /* UICollectionViewFlowLayout+ORIBProperty.m */; };
+		EE96D50521CCC8B5005197BA /* UILabel+ORIBProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D4F721CCC8B5005197BA /* UILabel+ORIBProperty.m */; };
+		EE96D50621CCC8B5005197BA /* UITextField+ORIBProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D4FA21CCC8B5005197BA /* UITextField+ORIBProperty.m */; };
+		EE96D50721CCC8B5005197BA /* UIView+ORIBProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D4FC21CCC8B5005197BA /* UIView+ORIBProperty.m */; };
+		EE96D50821CCC8B5005197BA /* UIImageView+ORIBProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D4FD21CCC8B5005197BA /* UIImageView+ORIBProperty.m */; };
+		EE96D50921CCC8B5005197BA /* NSLayoutConstraint+ORIBProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D4FE21CCC8B5005197BA /* NSLayoutConstraint+ORIBProperty.m */; };
+		EE96D50A21CCC8B5005197BA /* UIButton+ORIBProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D4FF21CCC8B5005197BA /* UIButton+ORIBProperty.m */; };
+		EE96D50B21CCC8B5005197BA /* NSObject+ORIBProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D50021CCC8B5005197BA /* NSObject+ORIBProperty.m */; };
+		EE96D50C21CCC8B5005197BA /* UITextView+ORIBProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D50121CCC8B5005197BA /* UITextView+ORIBProperty.m */; };
+		EE96D50F21CCCA2C005197BA /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D50D21CCCA2B005197BA /* BaseTableViewController.m */; };
+		EE96D51221CCCB1B005197BA /* ClockViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D51021CCCB1B005197BA /* ClockViewModel.m */; };
+		EE96D51521CCCD47005197BA /* RepeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D51421CCCD47005197BA /* RepeatViewController.m */; };
+		EE96D51821CCDCBC005197BA /* WeekDayCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D51721CCDCBC005197BA /* WeekDayCollectionViewCell.m */; };
+		EE96D51B21CCDE86005197BA /* Monday_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96D51A21CCDE86005197BA /* Monday_Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13D8C337FB8A01F2D2A74326 /* libPods-AddClockViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AddClockViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03794FA910C64BE8E13262D /* Pods-AddClockViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddClockViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AddClockViewDemo/Pods-AddClockViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E11E12BFE4401EC4B6D497BA /* Pods-AddClockViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddClockViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AddClockViewDemo/Pods-AddClockViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		EE96D4AC21CCB844005197BA /* AddClockViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddClockViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE96D4AF21CCB845005197BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE96D4B021CCB845005197BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +73,43 @@
 		EE96D4CF21CCB84F005197BA /* AddClockViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddClockViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE96D4D321CCB84F005197BA /* AddClockViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddClockViewDemoUITests.m; sourceTree = "<group>"; };
 		EE96D4D521CCB850005197BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE96D4E121CCBE03005197BA /* AddClockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddClockViewController.h; sourceTree = "<group>"; };
+		EE96D4E221CCBE03005197BA /* AddClockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddClockViewController.m; sourceTree = "<group>"; };
+		EE96D4E621CCC889005197BA /* UNNotificationsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNNotificationsManager.h; sourceTree = "<group>"; };
+		EE96D4E721CCC889005197BA /* UNNotificationsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNNotificationsManager.m; sourceTree = "<group>"; };
+		EE96D4EA21CCC8B5005197BA /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		EE96D4EB21CCC8B5005197BA /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		EE96D4ED21CCC8B5005197BA /* UIControl+ORIBProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ORIBProperty.m"; sourceTree = "<group>"; };
+		EE96D4EE21CCC8B5005197BA /* UITextField+ORIBProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ORIBProperty.h"; sourceTree = "<group>"; };
+		EE96D4EF21CCC8B5005197BA /* UICollectionViewFlowLayout+ORIBProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewFlowLayout+ORIBProperty.m"; sourceTree = "<group>"; };
+		EE96D4F021CCC8B5005197BA /* UILabel+ORIBProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ORIBProperty.h"; sourceTree = "<group>"; };
+		EE96D4F121CCC8B5005197BA /* UIView+ORIBProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ORIBProperty.h"; sourceTree = "<group>"; };
+		EE96D4F221CCC8B5005197BA /* UIButton+ORIBProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ORIBProperty.h"; sourceTree = "<group>"; };
+		EE96D4F321CCC8B5005197BA /* NSLayoutConstraint+ORIBProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+ORIBProperty.h"; sourceTree = "<group>"; };
+		EE96D4F421CCC8B5005197BA /* UIImageView+ORIBProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ORIBProperty.h"; sourceTree = "<group>"; };
+		EE96D4F521CCC8B5005197BA /* UITextView+ORIBProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+ORIBProperty.h"; sourceTree = "<group>"; };
+		EE96D4F621CCC8B5005197BA /* NSObject+ORIBProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ORIBProperty.h"; sourceTree = "<group>"; };
+		EE96D4F721CCC8B5005197BA /* UILabel+ORIBProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ORIBProperty.m"; sourceTree = "<group>"; };
+		EE96D4F821CCC8B5005197BA /* UICollectionViewFlowLayout+ORIBProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewFlowLayout+ORIBProperty.h"; sourceTree = "<group>"; };
+		EE96D4F921CCC8B5005197BA /* ORIBProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORIBProperty.h; sourceTree = "<group>"; };
+		EE96D4FA21CCC8B5005197BA /* UITextField+ORIBProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ORIBProperty.m"; sourceTree = "<group>"; };
+		EE96D4FB21CCC8B5005197BA /* UIControl+ORIBProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+ORIBProperty.h"; sourceTree = "<group>"; };
+		EE96D4FC21CCC8B5005197BA /* UIView+ORIBProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ORIBProperty.m"; sourceTree = "<group>"; };
+		EE96D4FD21CCC8B5005197BA /* UIImageView+ORIBProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ORIBProperty.m"; sourceTree = "<group>"; };
+		EE96D4FE21CCC8B5005197BA /* NSLayoutConstraint+ORIBProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+ORIBProperty.m"; sourceTree = "<group>"; };
+		EE96D4FF21CCC8B5005197BA /* UIButton+ORIBProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ORIBProperty.m"; sourceTree = "<group>"; };
+		EE96D50021CCC8B5005197BA /* NSObject+ORIBProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ORIBProperty.m"; sourceTree = "<group>"; };
+		EE96D50121CCC8B5005197BA /* UITextView+ORIBProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ORIBProperty.m"; sourceTree = "<group>"; };
+		EE96D50D21CCCA2B005197BA /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		EE96D50E21CCCA2C005197BA /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		EE96D51021CCCB1B005197BA /* ClockViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockViewModel.m; sourceTree = "<group>"; };
+		EE96D51121CCCB1B005197BA /* ClockViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockViewModel.h; sourceTree = "<group>"; };
+		EE96D51321CCCD47005197BA /* RepeatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepeatViewController.h; sourceTree = "<group>"; };
+		EE96D51421CCCD47005197BA /* RepeatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepeatViewController.m; sourceTree = "<group>"; };
+		EE96D51621CCDCBC005197BA /* WeekDayCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeekDayCollectionViewCell.h; sourceTree = "<group>"; };
+		EE96D51721CCDCBC005197BA /* WeekDayCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeekDayCollectionViewCell.m; sourceTree = "<group>"; };
+		EE96D51921CCDE86005197BA /* Monday_Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Monday_Model.h; sourceTree = "<group>"; };
+		EE96D51A21CCDE86005197BA /* Monday_Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Monday_Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD16C6B59D8197C6CAFAC618 /* libPods-AddClockViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +138,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A25B61E061C830A0750FD592 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D03794FA910C64BE8E13262D /* Pods-AddClockViewDemo.debug.xcconfig */,
+				E11E12BFE4401EC4B6D497BA /* Pods-AddClockViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D38331966762E2C468C02E49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13D8C337FB8A01F2D2A74326 /* libPods-AddClockViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE96D4A321CCB843005197BA = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +162,8 @@
 				EE96D4C721CCB84E005197BA /* AddClockViewDemoTests */,
 				EE96D4D221CCB84F005197BA /* AddClockViewDemoUITests */,
 				EE96D4AD21CCB844005197BA /* Products */,
+				A25B61E061C830A0750FD592 /* Pods */,
+				D38331966762E2C468C02E49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +180,23 @@
 		EE96D4AE21CCB844005197BA /* AddClockViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EE96D4E421CCC889005197BA /* Third */,
 				EE96D4AF21CCB845005197BA /* AppDelegate.h */,
 				EE96D4B021CCB845005197BA /* AppDelegate.m */,
 				EE96D4B221CCB845005197BA /* ViewController.h */,
 				EE96D4B321CCB845005197BA /* ViewController.m */,
+				EE96D50E21CCCA2C005197BA /* BaseTableViewController.h */,
+				EE96D50D21CCCA2B005197BA /* BaseTableViewController.m */,
+				EE96D4E121CCBE03005197BA /* AddClockViewController.h */,
+				EE96D4E221CCBE03005197BA /* AddClockViewController.m */,
+				EE96D51321CCCD47005197BA /* RepeatViewController.h */,
+				EE96D51421CCCD47005197BA /* RepeatViewController.m */,
+				EE96D51121CCCB1B005197BA /* ClockViewModel.h */,
+				EE96D51021CCCB1B005197BA /* ClockViewModel.m */,
+				EE96D51621CCDCBC005197BA /* WeekDayCollectionViewCell.h */,
+				EE96D51721CCDCBC005197BA /* WeekDayCollectionViewCell.m */,
+				EE96D51921CCDE86005197BA /* Monday_Model.h */,
+				EE96D51A21CCDE86005197BA /* Monday_Model.m */,
 				EE96D4B521CCB845005197BA /* Main.storyboard */,
 				EE96D4B821CCB846005197BA /* Assets.xcassets */,
 				EE96D4BA21CCB846005197BA /* LaunchScreen.storyboard */,
@@ -132,6 +224,62 @@
 			path = AddClockViewDemoUITests;
 			sourceTree = "<group>";
 		};
+		EE96D4E421CCC889005197BA /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				EE96D4E921CCC8B5005197BA /* Aspects */,
+				EE96D4EC21CCC8B5005197BA /* IBProperty */,
+				EE96D4E521CCC889005197BA /* UNNotificationsManager */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		EE96D4E521CCC889005197BA /* UNNotificationsManager */ = {
+			isa = PBXGroup;
+			children = (
+				EE96D4E621CCC889005197BA /* UNNotificationsManager.h */,
+				EE96D4E721CCC889005197BA /* UNNotificationsManager.m */,
+			);
+			path = UNNotificationsManager;
+			sourceTree = "<group>";
+		};
+		EE96D4E921CCC8B5005197BA /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				EE96D4EA21CCC8B5005197BA /* Aspects.h */,
+				EE96D4EB21CCC8B5005197BA /* Aspects.m */,
+			);
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+		EE96D4EC21CCC8B5005197BA /* IBProperty */ = {
+			isa = PBXGroup;
+			children = (
+				EE96D4ED21CCC8B5005197BA /* UIControl+ORIBProperty.m */,
+				EE96D4EE21CCC8B5005197BA /* UITextField+ORIBProperty.h */,
+				EE96D4EF21CCC8B5005197BA /* UICollectionViewFlowLayout+ORIBProperty.m */,
+				EE96D4F021CCC8B5005197BA /* UILabel+ORIBProperty.h */,
+				EE96D4F121CCC8B5005197BA /* UIView+ORIBProperty.h */,
+				EE96D4F221CCC8B5005197BA /* UIButton+ORIBProperty.h */,
+				EE96D4F321CCC8B5005197BA /* NSLayoutConstraint+ORIBProperty.h */,
+				EE96D4F421CCC8B5005197BA /* UIImageView+ORIBProperty.h */,
+				EE96D4F521CCC8B5005197BA /* UITextView+ORIBProperty.h */,
+				EE96D4F621CCC8B5005197BA /* NSObject+ORIBProperty.h */,
+				EE96D4F721CCC8B5005197BA /* UILabel+ORIBProperty.m */,
+				EE96D4F821CCC8B5005197BA /* UICollectionViewFlowLayout+ORIBProperty.h */,
+				EE96D4F921CCC8B5005197BA /* ORIBProperty.h */,
+				EE96D4FA21CCC8B5005197BA /* UITextField+ORIBProperty.m */,
+				EE96D4FB21CCC8B5005197BA /* UIControl+ORIBProperty.h */,
+				EE96D4FC21CCC8B5005197BA /* UIView+ORIBProperty.m */,
+				EE96D4FD21CCC8B5005197BA /* UIImageView+ORIBProperty.m */,
+				EE96D4FE21CCC8B5005197BA /* NSLayoutConstraint+ORIBProperty.m */,
+				EE96D4FF21CCC8B5005197BA /* UIButton+ORIBProperty.m */,
+				EE96D50021CCC8B5005197BA /* NSObject+ORIBProperty.m */,
+				EE96D50121CCC8B5005197BA /* UITextView+ORIBProperty.m */,
+			);
+			path = IBProperty;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE96D4D821CCB850005197BA /* Build configuration list for PBXNativeTarget "AddClockViewDemo" */;
 			buildPhases = (
+				EEFF812D38303A86D83A0689 /* [CP] Check Pods Manifest.lock */,
 				EE96D4A821CCB844005197BA /* Sources */,
 				EE96D4A921CCB844005197BA /* Frameworks */,
 				EE96D4AA21CCB844005197BA /* Resources */,
+				B7147E461AF6AF4B2CE9522C /* [CP] Embed Pods Frameworks */,
+				FB3BAED977C8B53C78190A0D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +411,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B7147E461AF6AF4B2CE9522C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AddClockViewDemo/Pods-AddClockViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEFF812D38303A86D83A0689 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AddClockViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB3BAED977C8B53C78190A0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AddClockViewDemo/Pods-AddClockViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE96D4A821CCB844005197BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EE96D4B421CCB845005197BA /* ViewController.m in Sources */,
+				EE96D50821CCC8B5005197BA /* UIImageView+ORIBProperty.m in Sources */,
+				EE96D50521CCC8B5005197BA /* UILabel+ORIBProperty.m in Sources */,
+				EE96D50921CCC8B5005197BA /* NSLayoutConstraint+ORIBProperty.m in Sources */,
 				EE96D4BF21CCB846005197BA /* main.m in Sources */,
+				EE96D51221CCCB1B005197BA /* ClockViewModel.m in Sources */,
 				EE96D4B121CCB845005197BA /* AppDelegate.m in Sources */,
+				EE96D50B21CCC8B5005197BA /* NSObject+ORIBProperty.m in Sources */,
+				EE96D50421CCC8B5005197BA /* UICollectionViewFlowLayout+ORIBProperty.m in Sources */,
+				EE96D50321CCC8B5005197BA /* UIControl+ORIBProperty.m in Sources */,
+				EE96D51B21CCDE86005197BA /* Monday_Model.m in Sources */,
+				EE96D50721CCC8B5005197BA /* UIView+ORIBProperty.m in Sources */,
+				EE96D50F21CCCA2C005197BA /* BaseTableViewController.m in Sources */,
+				EE96D4E821CCC889005197BA /* UNNotificationsManager.m in Sources */,
+				EE96D4E321CCBE03005197BA /* AddClockViewController.m in Sources */,
+				EE96D50621CCC8B5005197BA /* UITextField+ORIBProperty.m in Sources */,
+				EE96D50A21CCC8B5005197BA /* UIButton+ORIBProperty.m in Sources */,
+				EE96D51521CCCD47005197BA /* RepeatViewController.m in Sources */,
+				EE96D50C21CCC8B5005197BA /* UITextView+ORIBProperty.m in Sources */,
+				EE96D50221CCC8B5005197BA /* Aspects.m in Sources */,
+				EE96D51821CCDCBC005197BA /* WeekDayCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +648,7 @@
 		};
 		EE96D4D921CCB850005197BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D03794FA910C64BE8E13262D /* Pods-AddClockViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +663,7 @@
 		};
 		EE96D4DA21CCB850005197BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11E12BFE4401EC4B6D497BA /* Pods-AddClockViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
